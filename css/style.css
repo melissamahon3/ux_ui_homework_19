@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+  }
+  header {
+    background-color: #FFFFFF;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
+    color: white;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+    font-family: DM Serif Display;
+    color: #5D6374
+  }
+  header p {
+    display: inline-block;
+  }
+  
+  header img {
+    align-content: left;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .heroImg {
+    background-image: url(../images/Hero\ image\ 2.jpg);
+    padding: 100px 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+  button {
+    padding: 15px;
+    background-color: #107C89;
+    color: white;
+    font-size: 15px;
+    font-family: PT Sans;
+    border-radius: 10px;
+  }
+  footer {
+    background-color: #373738;
+    padding: 5px;
+    color: white;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+  
+  .flexContainer {
+    display: flex;
+    width: 65%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .mySkills {
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .flexContainer div {
+    padding: 20px;
+  }
+  
+  .workGrid {
+    display: grid;
+    align-content: center;
+    
+  
+  }
+  
+  .item1 {
+    grid-area: myArea;
+  }
+  
+  h1 {
+    font-family: DM Serif Display;
+    color:black;
+    font-size: 42px;
+    font-weight: normal;
+    padding:0px;
+    margin: 1px;
+  }
+  
+  h2 {
+    font-family: DM Serif Display;
+    color: #107C89;
+    font-weight: normal;
+    font-size: 32px;
+    padding:0px;
+    margin: 1px;
+  
+  }
+  
+  h3 {
+    font-family: DM Serif Display;
+    color: #107C89;
+    font-weight: normal;
+    font-size: 22px;
+    padding:0px;
+    margin: 1px;
+  }
+  
+  h4 {
+    font-family: DM Serif Display;
+    color: #373738;
+    font-size: 18;
+  }
+  
+  p {
+    font-family: PT Sans;
+  }
