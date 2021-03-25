@@ -15,6 +15,11 @@ body {
     font-family: DM Serif Display;
     color: #5D6374
   }
+
+  header li:hover {
+    color:black !important;
+  }
+
   header p {
     display: inline-block;
   }
