@@ -10,3 +10,15 @@ $(function() {
         $(this).removeClass('hovered');
     });
 });
+
+// Hover for Button
+
+$(function() {
+    $('.showlink').hover(function(){
+        $(this).addClass('hovered');
+    },
+    function(){
+        $(this).removeClass('hovered');
+    });
+
+});

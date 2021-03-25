@@ -13,7 +13,8 @@ body {
     display: inline-block;
     padding: 0px 5px;
     font-family: DM Serif Display;
-    color: #5D6374
+    color: #5D6374;
+
   }
 
   header li:hover {
@@ -52,7 +53,20 @@ body {
     color: white;
     font-size: 15px;
     font-family: PT Sans;
-    border-radius: 10px;
+    font-weight: bold;
+    border-radius: 10%;
+    text-align: center;
+  }
+
+  button:hover {
+    padding: 15px;
+    background-color:white;
+    color: #107C89;
+    font-size: 15px;
+    font-family: PT Sans;
+    font-weight: bold;
+    border-radius: 10%;
+    text-align: center;
   }
   footer {
     background-color: #373738;
@@ -76,11 +90,17 @@ body {
     justify-content: center;
     margin: auto;
     padding: 10px;
-  }
   
+  }
+
   .mySkills {
     padding-top: 50px;
+    padding-bottom: 75px;
     margin: auto;
+    text-align: center;
+  }
+
+  .myWork {
     text-align: center;
   }
   
@@ -88,11 +108,10 @@ body {
     padding: 20px;
   }
   
-  .workGrid {
-    display: grid;
-    align-content: center;
-    
-  
+  .case-study {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 75px;
   }
   
   .item1 {
